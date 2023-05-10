@@ -26,6 +26,7 @@ ul {
 .carousal__btn {
   background-color: white;
   border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .25);
   height: fit-content;
   opacity: .5;
   margin: 0 1rem;
