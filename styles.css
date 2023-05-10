@@ -1,0 +1,108 @@
+p, ul {
+  margin: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.icon {
+  bottom: 1px;
+  position: relative;
+}
+
+/* Navigation bar -  Links */
+
+.primary_nav {
+  background-color: #C9003A;
+  display: flex;
+  justify-content: space-between;
+  padding: .25rem 5rem;
+}
+
+.primary_nav__list {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.primary_nav__link {
+  color: #FFC8EC !important;
+  font-size: .8rem;
+}
+
+/* Navigation bar - Search, Cart */
+
+.secondary_nav {
+  background-color: #E30047;
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.input-group {
+  margin: 0 !important;
+  width: 50rem;
+}
+
+.searchbox__input {
+  box-shadow: 0 0 8px 1px rgba(0, 0, 0, .25) !important;
+  border: none !important;
+  border-radius: 2px;
+  font-size: .9rem;
+  padding-left: 2rem !important;
+}
+.searchbox__input::placeholder {
+  color: #CDCFCE;
+}
+
+.btn {
+  border: none;
+  border-radius: 0 5px 5px 0;
+  color: rgba(255, 255, 255, .9);
+  font-size: .9rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.btn-primary {
+  background-color: #303531 !important;
+}
+
+.secondary_nav__list {
+  padding: 0 !important;
+  transform: translateX(10rem);
+}
+
+.secondary_nav__item {
+  margin-right: 3rem;
+}
+
+.bi-person-fill {
+  background-color: #C1093B;
+  cursor: pointer;
+  display: flex;
+  border-radius: 50%;
+  color: white;
+  padding: .5rem;
+}
+
+
+/* Main content */
+
+.main_grid {
+  border: 1px solid red;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 13rem auto 17rem;
+  padding: 1rem 4rem;
+}
+
+.main_grid__child {
+  border: 1px solid blue;
+  height: 5rem;
+}
