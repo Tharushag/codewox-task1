@@ -21,6 +21,25 @@ ul {
   position: relative;
 }
 
+/* Carousal */
+
+.carousal__btn {
+  background-color: white;
+  border-radius: 50%;
+  height: fit-content;
+  opacity: .5;
+  margin: 0 1rem;
+  padding: .25rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: fit-content;
+}
+
+.carousal__icon {
+  color: black;
+  display: flex;
+}
+
 /* Navigation bar -  Links */
 
 .primary_nav {
@@ -158,6 +177,7 @@ ul {
 
 .products_box {
   grid-column: 2 / span 2;
+  position: relative;
 }
 
 .more_categories__expand {
@@ -184,14 +204,17 @@ ul {
 /* Banner */
 
 .banner_box {
-  height: 18rem;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, .25);
+  position: relative;
+}
+
+.banner_box__carousel {
+  height: 18rem;
 }
 
 .banner_box__img {
-  height: calc(100% - 3rem);
+  height: 18rem !important;
   object-fit: cover;
-  width: 100%;
 }
 
 .banner_box__list {
@@ -295,7 +318,16 @@ ul {
   grid-template-columns: repeat(6, 1fr);
   gap: 1rem;
   padding: 1rem;
+  position: relative;
   width: 100%;
+}
+
+.products_card_box__button {
+  position: absolute;
+}
+
+.products_card_box__button-align--left {
+  left: 0;
 }
 
 .product_card {

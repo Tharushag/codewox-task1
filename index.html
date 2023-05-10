@@ -128,7 +128,26 @@
       </div>
     </div>
     <div class="banner_box">
-      <img src="https://source.unsplash.com/random" class="banner_box__img">
+      <div id="carouselExample" class="banner_box__carousel carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://source.unsplash.com/random" class="banner_box__img d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://source.unsplash.com/random" class="banner_box__img d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://source.unsplash.com/random" class="banner_box__img d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev carousal__btn" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <i class="bi bi-chevron-left carousal__icon"></i>
+        </button>
+        <button class="carousel-control-next carousal__btn" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <i class="bi bi-chevron-right carousal__icon"></i>
+        </button>
+      </div>
+
       <ul class="banner_box__list">
         <li>Snapdeal</li>
         <li>Snapdeal</li>
@@ -157,6 +176,14 @@
       <h1 class="products_box__title">Trending products</h1>
 
       <div class="product_card_box">
+
+        <button class="carousel-control-next carousal__btn products_card_box__button products_card_box__button-align--left" type="button">
+          <i class="bi bi-chevron-left carousal__icon"></i>
+        </button>
+        <button class="carousel-control-next carousal__btn products_card_box__button" type="button">
+          <i class="bi bi-chevron-right carousal__icon"></i>
+        </button>
+
         <div class="product_card">
           <img src="https://source.unsplash.com/random" class="product_card__img">
           <p class="product_card__description">bhawana collections Lord Shiv Trishul Damru locket with...</p>
