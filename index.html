@@ -44,7 +44,7 @@
       <div class="input-group mb-3 searchbox">
         <input type="text" class="form-control searchbox__input" placeholder="Search products & brands"  aria-label="Search products and brands" aria-describedby="basic-addon2">
         <div class="input-group-append">
-          <button class="btn btn-primary" type="button">
+          <button class="btn btn-primary searchbox__btn" type="button">
             <i class="bi bi-search icon"></i>
             Search
           </button>
@@ -71,7 +71,7 @@
   </header>
 
   <div class="main_grid">
-    <div class="main_grid__child side_bar">
+    <div class="side_bar">
       <h1 class="side_bar__title">Top categories</h1>
 
       <ul class="side_bar__list top_categories__list">
@@ -120,7 +120,7 @@
         <li><i class="bi bi-search side_bar_icon icon"></i>Men's fashion</li>
       </ul>
     </div>
-    <div class="main_grid__child banner_box">
+    <div class="banner_box">
       <img src="https://source.unsplash.com/random" class="banner_box__img">
       <ul class="banner_box__list">
         <li>Snapdeal</li>
@@ -130,8 +130,25 @@
         <li>Snapdeal</li>
       </ul>
     </div>
-    <div class="main_grid__child pincode_box"></div>
-    <div class="main_grid__child products_box"></div>
+    <div class="pincode_box">
+      <img src="https://source.unsplash.com/random" class="pincode_box__img">
+
+      <h1 class="pincode_box__title">Your delivery pincode</h1>
+
+      <p class="pincode_box__text">Enter your pincode to check availability and faster delivery options.</p>
+
+      <form class="pincode_box__form" action="/">
+        <input type="text" class="pincode_box__input" placeholder="Enter pincode">
+        
+        <div class="pincode_box__buttons">
+          <button class="btn btn-primary" type="submit">Submit</button>
+          <button class="btn btn-primary pincode_box__next" disabled>Next</button>
+        </div>
+      </form>
+    </div>
+    <div class="products_box">
+      <h1 class="products_box__title">Trending products</h1>
+    </div>
   </div>
 
   <footer>
