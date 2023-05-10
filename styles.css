@@ -110,6 +110,10 @@ ul {
   margin-right: 3rem;
 }
 
+.bi-cart3 {
+  font-size: 1.3rem;
+}
+
 .bi-person-fill {
   background-color: #C1093B;
   cursor: pointer;
@@ -182,6 +186,7 @@ ul {
 
 .more_categories__expand {
   color: #77B3BE;
+  cursor: pointer;
 }
 
 .side_bar_icon {
@@ -242,7 +247,8 @@ ul {
 }
 
 .pincode_box__img {
-  height: auto;
+  height: 8rem;
+  object-fit: cover;
   width: 8rem;
 }
 
@@ -261,7 +267,7 @@ ul {
   display: block;
   height: 3px;
   position: relative;
-  top: 40%;
+  top: 50%;
   width: 1.5rem;
 }
 
